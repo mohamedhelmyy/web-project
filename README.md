@@ -1,4 +1,4 @@
 # web project
-##HTMl
-##CSS
-#JS
+## HTMl
+## CSS
+# JS
