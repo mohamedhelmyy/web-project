@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      background-color: #E0F2FE;
+    }
+    .box-style {
+      width: 60px;
+      height: 60px;
+      background-color: #FFF;
+      /* display: inline-block; */
+      float: left;
+      border-radius: 5px;
+      margin-right: 10px;
+      text-align: center;
+      line-height: 60px;
+      cursor: pointer;
+      padding: 10px;
+      box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+    }
+
+    .heading-style {
+      color: #1388E5;
+      margin: 0;
+      font-size: 20px;
+      opacity: 0;
+      transition: all .5s ease-in-out;
+    }
+
+    .container {
+      text-align: center;
+      margin-top: 100px;
+      font-family: monospace; 
+    }
+
+    .container h5 {
+      font-size: 30px;
+      text-align: center;
+      margin: 0;
+      margin-bottom: 20px;
+    }
+
+    .container input {
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #fff;
+      width: 50%;
+    }
+
+    .container input:focus{
+      outline: 0;
+    }
+
+    .container button {
+      background-color: #1388E5;
+      color: #fff;
+      border: 0;
+      padding: 10px;
+      border-radius: 5px;
+      font-family: monospace; 
+      cursor: pointer;
+    }
+
+    .container .parent-boxes {
+      height: 200px;
+      width: 58%;
+      margin: auto;
+      margin-top: 30px;
+    }
+
+    .alert {
+      position: relative;
+      padding: .75rem 1.25rem;
+      margin-bottom: 1rem;
+      border: 1px solid transparent;
+      border-radius: .25rem;
+      transition: all .5s ease-in-out;
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+
+    .alert-primary {
+      color: #fff;
+      background-color: #1388E5;
+      border-color: #b8daff
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div class="alert alert-primary" role="alert"></div>
+
+    <h5>Searching for the gifts</h5>
+    <input class="number-box" type="text" placeholder="add number of boxes">
+    <button class="create-box">Creat box</button>
+
+    <div class="parent-boxes"></div>
+
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
